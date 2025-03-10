@@ -1,6 +1,6 @@
 import React from 'react'
 import  './Films.css'
-import image2 from '../../assets/sagar.jpg'
+import image2 from '../../assets/sagar.webp'
 
 
 const Films = () => {

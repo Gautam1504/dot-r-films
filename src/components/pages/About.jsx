@@ -1,8 +1,8 @@
 import React from 'react'
 import './About.css'
-import Member1 from '../../assets/namit.jpg'
-import Member2 from '../../assets/Shivaji.jpg'
-import Member3 from '../../assets/sagar.jpg'
+import Member1 from '../../assets/namit.webp'
+import Member2 from '../../assets/Shivaji.webp'
+import Member3 from '../../assets/sagar.webp'
 
 const About = () => {
   const teamMembers=[

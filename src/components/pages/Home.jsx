@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../../assets/Showreel.mp4'
+import Video from '../../assets/Showreel.webm'
 import { Link } from 'react-router-dom'
 import './Home.css'
 
