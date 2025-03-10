@@ -23,7 +23,7 @@ const About = () => {
         {teamMembers.map((member)=>{
           return(
             <div key={member.id} className="team-member">
-              <img src={member.image} alt={member.name} className='member-photo' />
+              <img src={member.image} loading='lazy' alt={member.name} className='member-photo' />
               <h3 className='member-name'>{member.name}</h3>
               <p className='member-role'>{member.role}</p>
             </div>
