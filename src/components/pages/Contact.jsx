@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import { FaPhone, FaEnvelope } from 'react-icons/fa'
+import { FaEnvelope } from 'react-icons/fa'
 import {toast} from 'react-toastify';
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "4ac70d6a-6577-4dda-a7e6-75a73b11d442");
+    formData.append("access_key", "e112cf29-80ce-4102-8a7e-b8d739ceb1ff");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -38,7 +38,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-details">
           <h2>General Enquiries</h2>
-          <p><FaEnvelope/> dotrfilms@gmail.com</p>
+          <p><FaEnvelope/> enquiries@dotrfilms.com</p>
           <h2>Production Enquiries</h2>
           <p><FaEnvelope/> dotrfilms@gmail.com</p>
         </div>

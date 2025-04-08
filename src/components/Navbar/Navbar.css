@@ -7,8 +7,10 @@
     color: #fff;
   }
   
-  .logo {
-    height: 100px;
+  .logo-text {
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
   }
   
   .menu {
@@ -60,8 +62,9 @@
       padding: 10px 0;
     }
 
-    .logo {
-        height: 50px;
+    .logo-text {
+        font-size: 1rem;
+        padding-left: 5px;
       }
   
     .nav-items.open {

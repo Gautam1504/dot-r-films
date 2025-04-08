@@ -3,14 +3,14 @@ import './About.css'
 import Member1 from '../../assets/namit.webp'
 import Member2 from '../../assets/Shivaji.webp'
 import Member3 from '../../assets/sagar.webp'
+import Member4 from '../../assets/Sunil.webp'
 
 const About = () => {
   const teamMembers=[
     {id:1,name:'Namit Naidu',role:'Producer',image:Member1},
-    {id:2,name:'Shivaji Galewad',role:'Cinematographer',image:Member2},
+    {id:4,name:'Sunil Nalakurti',role:'Director',image:Member4},
     {id:3,name:'Sagar Ghimiray',role:'Cinematographer',image:Member3},
-    {id:4,name:'Sagar Ghimiray',role:'Cinematographer',image:Member3},
-
+    {id:2,name:'Shivaji Galewad',role:'Cinematographer',image:Member2},
   ]
   return (
     <div className='about-container'>

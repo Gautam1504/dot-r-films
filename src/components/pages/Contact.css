@@ -7,7 +7,7 @@
 .contact h1{
     font-size: 3rem;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .contact p{
@@ -19,7 +19,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;    
+    padding: 20px;
+    margin-bottom: 140px;    
 }
 
 .contact-details{
@@ -95,6 +96,7 @@
     .contact-container {
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 50px;
     }
 
     .contact-details {
@@ -113,5 +115,9 @@
     .contact-form {
         flex: 1;
         max-width: 600px;
+    }
+
+    .contact h1{
+        margin-top: 40px;
     }
 }

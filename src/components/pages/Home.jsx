@@ -24,7 +24,7 @@ const Home = () => {
       <div className="hero-overlay" />
       <div className="hero-content">
         <h1 className="hero-title">Dot R Films</h1>
-        <p className="hero-subtitle">Crafting Stories, Capturing Emotions.</p>
+        <p className="hero-subtitle">STORIES WELL TOLD</p>
         <Link to='/Films'><button className="hero-cta">View Our Work</button></Link>
       </div>
     </section>

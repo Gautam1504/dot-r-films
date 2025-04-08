@@ -13,7 +13,7 @@ const Navbar = () => {
   }
   return (
       <nav className="navbar">
-        <Link to='/'><img src={Logo} alt="" className='logo' /></Link>
+        <Link to='/'><h1 className='logo-text'>DOT R FILMS</h1></Link>
 
         <div className="menu" onClick={toggleMenu}>
           <span></span>
